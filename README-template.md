@@ -64,8 +64,8 @@ I need to design more responive pages to get a hang of it. More so, I have to in
 
 ## Author
 
-- Website - [Kenneth Anyamba](https://www.your-site.com)
-- Frontend Mentor - [@Kenn-eth](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Kenneth Anyamba](https://kenn-eth.github.io/Product-card-design/)
+- Frontend Mentor - [@Kenn-eth](https://www.frontendmentor.io/profile/Kenn-eth)
 
 ## Acknowledgments
 

@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 45%;
+  width: 60vw;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@ body {
   flex-direction: column;
   padding: 0;
   border-radius: 15px;
-  width: 100%;
+  width: 60vw;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -67,12 +67,17 @@ button {
   height: 6vh;
   margin-top: 1em;
   background-color: hsl(158, 36%, 37%);
-  border-radius: 10px;
+  border-radius: 8px;
   border: none;
   color: hsl(0, 0%, 100%);
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 0.8em;
+}
+
+button:hover {
+  background-color: hsl(157, 67%, 17%);
+  cursor: pointer;
 }
 
 button img {
