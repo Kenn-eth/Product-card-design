@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(https://fonts.google.com/specimen/Montserrat);
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+html {
+  font-size: clamp(1rem, 0.5rem + 1vw, 2rem);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 21%, 14%);
+}
+
+.container {
+  width: 45%;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 15px;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+
+picture img {
+  height: 20%;
+  max-inline-size: 100%;
+  block-size: auto;
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h1 {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product-details {
+  padding: 15px;
+}
+
+button {
+  width: 100%;
+  height: 6vh;
+  margin-top: 1em;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+button img {
+  margin-inline-end: 1em;
+  height: 1em;
+}
+
+.caption {
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+
+.product-name {
+  margin: 5px 0;
+}
+
+.product-description {
+  line-height: 1.5em;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.price h1 {
+  margin: 0;
+  color: hsl(158, 36%, 37%);
+}
+.price p {
+  text-decoration-line: line-through;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.7em;
+  color: hsl(228, 12%, 48%);
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+  }
+
+  .card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    width: 40vw;
+    max-width: 850px;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .product-pic {
+    width: 50%;
+    height: 100%;
+  }
+
+  picture img {
+    height: 100%;
+    max-inline-size: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+  }
+
+  .product-details {
+    width: 50%;
+    padding: 15px;
+    height: fit-content;
+  }
+}
